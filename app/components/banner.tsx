@@ -1,5 +1,5 @@
-import { ParallaxBanner } from "react-scroll-parallax"
-import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanner/types"
+import { ParallaxBanner } from 'react-scroll-parallax'
+import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types'
 
 const TitleBanner = () => {
     const background: BannerLayer = {
@@ -18,9 +18,9 @@ const TitleBanner = () => {
       shouldAlwaysCompleteAnimation: true,
       expanded: false,
       children: (
-        <div className="absolute top-16 right-32">
-          <h1 className="text-lg md:text-5xl lg:text-8xl">
-            Venture into<br />the universe
+        <div className="absolute top-16 right-12 lg:top-32 lg:right-56">
+          <h1 className="text-5xl lg:text-8xl text-sand">
+            XPLORE
           </h1>
         </div>
       ),
@@ -30,16 +30,16 @@ const TitleBanner = () => {
       image:
         '/banner-assets/foreground.png',
       translateY: [0, 15],
-      scale: [1, 1.1, 'easeOutCubic'],
+      scale: [1, 1.2, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: true,
     };
   
     const gradientOverlay: BannerLayer = {
-        opacity: [0, 1, "easeOutCubic"],
-        shouldAlwaysCompleteAnimation: true,
-        expanded: false,
-        children: <div className="z-100 absolute inset-0 bg-gradient-to-t from-blue-900 to-dark" />
-      };
+      opacity: [0, 1, "easeOutCubic"],
+      shouldAlwaysCompleteAnimation: true,
+      expanded: false,
+      children: <div className="absolute inset-0 gradient-banner" />
+    };
   
     return (
       <ParallaxBanner

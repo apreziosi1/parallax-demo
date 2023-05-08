@@ -1,7 +1,8 @@
 import './globals.css'
-import { Orbitron } from 'next/font/google'
+import { Poppins } from 'next/font/google'
+import "@fontsource/orbitron"
 
-const orbitron = Orbitron({ subsets: ['latin'] })
+const poppins = Poppins({ weight: ['400'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Labwm - Parallax Demo',
@@ -15,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={orbitron.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   )
 }
