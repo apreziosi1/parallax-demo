@@ -14,4 +14,4 @@ pnpm dev
 
 ## Deployment
 
-Visit the live demo here ...
+Visit the live demo [here](https://parallax-demo-labwm.vercel.app/)
