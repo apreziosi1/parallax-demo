@@ -12,7 +12,7 @@ const TitleBanner = () => {
     };
   
     const headline: BannerLayer = {
-      translateY: [0, 103],
+      translateY: [-10, 30],
       scale: [1, 1.05, 'easeOutCubic'],
       opacity: [1, 0, 'easeOutExpo'],
       shouldAlwaysCompleteAnimation: true,
@@ -20,8 +20,9 @@ const TitleBanner = () => {
       children: (
         <div className="absolute top-16 right-12 lg:top-32 lg:right-56">
           <h1 className="text-5xl lg:text-8xl text-sand">
-            XPLORE
+            XPLORE:
           </h1>
+          <h2 className="text-3xl lg:text-6xl text-sand">Distant worlds</h2>
         </div>
       ),
     };

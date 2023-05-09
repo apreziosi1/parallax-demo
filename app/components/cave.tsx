@@ -14,7 +14,8 @@ const Cave = () => {
     const detail: BannerLayer = {
       image:
         '/cave-assets/detail.png',
-      translateY: [-20, -10],
+      scale: [1, 1.2, 'easeOutCubic'],
+      translateY: [-20, 0],
       shouldAlwaysCompleteAnimation: true,
       shouldDisableScalingTranslations: true
     };

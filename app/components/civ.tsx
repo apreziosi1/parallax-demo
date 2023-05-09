@@ -43,12 +43,14 @@ const Civ = () => {
         shouldAlwaysCompleteAnimation: true,
         shouldDisableScalingTranslations: true,
         children: (
-        <div className='text-right px-12 py-12 lg:px-56 lg:py-24 opacity-100 lg:text-[#000]'>
+        <div className='text-right px-12 py-12 lg:px-80 lg:py-24 opacity-100 lg:text-[#000]'>
           <h2 className="text-5xl lg:text-8xl">Develop your <br /> settlement</h2>
-          <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-lg'>Breathtaking landscapes and alien terrains awaits you.
-          From vast deserts to lush forests, each planet has its unique environment waiting to be discovered.
-          Use advanced equipment to traverse rugged terrain and uncover hidden pathways.
-          With a variety of vehicles and tools at your disposal, choose your exploration experience on each planet.</p>
+          <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-lg'>
+          Face the many challenges as you seek to establish a thriving civilization in an alien world.
+          Carefully balance the needs of your growing population with the limited resources available on the planet: 
+          from mining and farming to researching new technologies, make tough decisions to keep your city thriving.
+          The planet itself is full of dangers, from extreme weather conditions to deadly creatures lurking in the wilderness. 
+          You'll need to be prepared for anything if you want to succeed.</p>
         </div>)
       };
     
