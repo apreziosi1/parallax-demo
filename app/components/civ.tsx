@@ -43,8 +43,8 @@ const Civ = () => {
         shouldAlwaysCompleteAnimation: true,
         shouldDisableScalingTranslations: true,
         children: (
-        <div className='text-right px-24 py-12 lg:px-56 lg:py-24 opacity-100 text-[#000]'>
-          <h2 className="text-5xl lg:text-8xl">Develop your own <br /> settlement</h2>
+        <div className='text-right px-12 py-12 lg:px-56 lg:py-24 opacity-100 lg:text-[#000]'>
+          <h2 className="text-5xl lg:text-8xl">Develop your <br /> settlement</h2>
           <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-lg'>Breathtaking landscapes and alien terrains awaits you.
           From vast deserts to lush forests, each planet has its unique environment waiting to be discovered.
           Use advanced equipment to traverse rugged terrain and uncover hidden pathways.
