@@ -14,7 +14,7 @@ const Desert = () => {
       image:
         '/desert-assets/detail.png',
       translateY: [-20, -10],
-      scale: [1.3, 1, 'easeOutCubic'],
+      scale: [1.25, 1, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: false,
       shouldDisableScalingTranslations: true
     };
@@ -22,6 +22,7 @@ const Desert = () => {
     const foreground: BannerLayer = {
       image:
         '/desert-assets/foreground.png',
+        translateY: [0, -10],
         scale: [1, 1.25, 'easeOutCubic'],
         shouldAlwaysCompleteAnimation: false
     };
@@ -37,7 +38,7 @@ const Desert = () => {
       opacity: [0, 5, "easeInSine"],
       shouldAlwaysCompleteAnimation: true,
       children: (
-      <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-1 text-dark'>
+      <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-dark'>
         <h2 className="text-5xl lg:text-8xl">Explore the surface...</h2>
         <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-base'>Breathtaking landscapes and alien terrains awaits you.
         From vast deserts to lush forests, each planet has its unique environment waiting to be discovered.

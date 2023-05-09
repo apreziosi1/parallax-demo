@@ -6,7 +6,7 @@ const Space = () => {
       image:
         '/space-assets/background.png',
       translateX: [-10, 20],
-      opacity: [1, 0.2],
+      opacity: [1, 0.1],
       scale: [1, 1.5, 'easeOutExpo'],
       shouldAlwaysCompleteAnimation: true      
     };
@@ -15,6 +15,7 @@ const Space = () => {
       image:
         '/space-assets/detail.png',
       translateY: [0, 10],
+      opacity: [1, 0.1],
       shouldAlwaysCompleteAnimation: true,
       shouldDisableScalingTranslations: true
     };
@@ -23,17 +24,18 @@ const Space = () => {
       image:
         '/space-assets/foreground.png',
         scale: [1, 1.25, 'easeOutExpo'],
-        opacity: [1, 0],
+        opacity: [1, 0.1],
         shouldAlwaysCompleteAnimation: true,
         shouldDisableScalingTranslations: true
     };
 
     const text: BannerLayer = {
-      opacity: [0.2, 2, "easeInSine"],
-      shouldAlwaysCompleteAnimation: false,
+      opacity: [0, 3, "easeInSine"],
+      shouldAlwaysCompleteAnimation: true,
+      shouldDisableScalingTranslations: true,
       children: (
-      <div className=' px-24 py-12 lg:px-48 lg:py-24 text-sand'>
-        <h2 className=" text-5xl lg:text-8xl">Travel to distant planets</h2>
+      <div className='sticky top-0 px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-sand'>
+        <h2 className="text-5xl lg:text-8xl w-1/2">Travel to distant planets</h2>
         <p className='mt-12'>Embark on a thrilling adventure and explore the vastness of space. <br />
         With advanced technologies, you can travel to distant planets <br /> and discover new worlds: 
         experience the rush of piloting a spacecraft <br /> through the galaxy 

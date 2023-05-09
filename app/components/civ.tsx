@@ -49,7 +49,7 @@ const Civ = () => {
         opacity: [0, 5, "easeInSine"],
         shouldAlwaysCompleteAnimation: true,
         children: (
-        <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-1 text-dark'>
+        <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-[#000]'>
           <h2 className="text-5xl lg:text-8xl">Develop your own <br /> settlement</h2>
           <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-lg'>Breathtaking landscapes and alien terrains awaits you.
           From vast deserts to lush forests, each planet has its unique environment waiting to be discovered.
