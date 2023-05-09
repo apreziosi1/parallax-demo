@@ -5,7 +5,7 @@ const Desert = () => {
     const background: BannerLayer = {
       image:
         '/desert-assets/background.png',
-      translateY: [0, -10],
+      translateY: [0, -20],
       scale: [1, 1.5, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: true      
     };

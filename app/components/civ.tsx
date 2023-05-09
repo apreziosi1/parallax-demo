@@ -5,7 +5,7 @@ const Civ = () => {
     const background: BannerLayer = {
       image:
         '/civ-assets/background.png',
-      
+      opacity:[1, 0.2, 'easeOutCubic'],
       scale: [2, 1, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: true,
       shouldDisableScalingTranslations: true      
@@ -38,16 +38,10 @@ const Civ = () => {
         shouldDisableScalingTranslations: true
     };
 
-    const gradientOverlay: BannerLayer = {
-        opacity: [0, 1, "easeInSine"],
-        shouldAlwaysCompleteAnimation: false,
-        expanded: true,
-        children: <div className="absolute inset-0 gradient" />
-      };
-
     const text: BannerLayer = {
         opacity: [0, 5, "easeInSine"],
         shouldAlwaysCompleteAnimation: true,
+        shouldDisableScalingTranslations: true,
         children: (
         <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-[#000]'>
           <h2 className="text-5xl lg:text-8xl">Develop your own <br /> settlement</h2>
@@ -61,7 +55,7 @@ const Civ = () => {
     return (
       <>
         <ParallaxBanner
-          layers={[background, detail, detail_1, foreground, text, gradientOverlay]}
+          layers={[ background, detail, detail_1, foreground,  text]}
           className="relative aspect-[2/1] w-2/3 lg:w-full h-screen"
         />
       </>

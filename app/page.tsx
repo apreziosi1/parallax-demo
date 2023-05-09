@@ -28,7 +28,7 @@ export default function Home() {
             <Cave /> 
           </div>
         </div>
-        <div className='h-[1500px] lg:h-[3000px]'>
+        <div className='h-[1500px] lg:h-[3000px] bg-[#C0C3CE]'>
           <div className='sticky top-0 w-full'>
             <Civ /> 
           </div>
