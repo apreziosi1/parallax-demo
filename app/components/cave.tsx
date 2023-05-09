@@ -15,7 +15,7 @@ const Cave = () => {
       image:
         '/cave-assets/detail.png',
       scale: [1, 1.2, 'easeOutCubic'],
-      translateY: [-20, 0],
+      translateY: [-20, 1],
       shouldAlwaysCompleteAnimation: true,
       shouldDisableScalingTranslations: true
     };
