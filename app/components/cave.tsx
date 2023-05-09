@@ -44,7 +44,7 @@ const Cave = () => {
     return (
       <>
         <ParallaxBanner
-          layers={[background, foreground, detail, text]}
+          layers={[background, foreground, text, detail]}
           className="relative aspect-[2/1] w-2/3 lg:w-full h-screen"
         />
       </>
