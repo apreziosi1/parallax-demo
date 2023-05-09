@@ -6,7 +6,7 @@ const Cave = () => {
       image:
         '/cave-assets/background.png',
       
-      scale: [2, 1, 'easeOutCubic'],
+      scale: [1.9, 1, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: true,
       shouldDisableScalingTranslations: true      
     };
