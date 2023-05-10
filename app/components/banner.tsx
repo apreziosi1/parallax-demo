@@ -18,7 +18,7 @@ const TitleBanner = () => {
       shouldAlwaysCompleteAnimation: true,
       expanded: false,
       children: (
-        <div className="absolute top-16 right-12 lg:top-32 lg:right-56">
+        <div className="absolute top-36 right-12 lg:top-32 lg:right-56">
           <h1 className="text-5xl lg:text-8xl text-sand">
             XPLORE:
           </h1>

@@ -43,7 +43,7 @@ const Civ = () => {
         shouldAlwaysCompleteAnimation: true,
         shouldDisableScalingTranslations: true,
         children: (
-        <div className='text-right px-12 py-12 lg:px-80 lg:py-24 opacity-100 lg:text-[#000]'>
+        <div className='text-right px-12 py-12 lg:px-80 lg:py-24 opacity-100 text-dark lg:text-[#000]'>
           <h2 className="text-5xl lg:text-8xl">Develop your <br /> settlement</h2>
           <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-lg'>
           Face the many challenges as you seek to establish a thriving civilization in an alien world.
