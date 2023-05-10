@@ -38,9 +38,9 @@ const Desert = () => {
       opacity: [0, 5, "easeInSine"],
       shouldAlwaysCompleteAnimation: true,
       children: (
-      <div className='text-right px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-dark'>
+      <div className='text-right ml-auto lg:w-2/3 px-24 py-12 lg:px-48 lg:py-24 opacity-100 text-dark'>
         <h2 className="text-5xl lg:text-8xl">Explore the surface...</h2>
-        <p className='mt-12 lg:w-1/2 ml-auto text-sm md:text-base'>Breathtaking landscapes and alien terrains awaits you.
+        <p className='mt-12 ml-auto text-sm md:text-base'>Breathtaking landscapes and alien terrains awaits you.
         From vast deserts to lush forests, each planet has its unique environment waiting to be discovered.
         Use advanced equipment to traverse rugged terrain and uncover hidden pathways.
         With a variety of vehicles and tools at your disposal, choose your exploration experience on each planet.</p>
